@@ -1,17 +1,17 @@
 import { createPublicClient,createWalletClient,http,custom} from 'viem'
-import { shardeumSphinx, polygonMumbai } from 'viem/chains'
+import { shardeumSphinx } from 'viem/chains'
 import { wagmiAbi } from './abi'
 
 
 export const mintTokens = async () => {
 
     const client = createPublicClient({ 
-        chain: polygonMumbai, 
+        chain: shardeumSphinx,
         transport: http(), 
     }) 
     
     const walletClient = createWalletClient({
-        chain: polygonMumbai,
+        chain: shardeumSphinx,
         transport: custom(window.ethereum!)
         })
 
