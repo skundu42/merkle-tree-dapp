@@ -1,6 +1,7 @@
 # Merkle Tree Dapp: A real world application demsontration of Merkle Tree
 This application shows the utility of merkle tree in whitelisting walletaddresses for airdrops. The application is built using Next.js, Hardhat, and RainbowKit.
 
+![Merkle Tree Diagram](/public/image.png)
 
 ## Getting Started
 
